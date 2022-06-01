@@ -1,0 +1,110 @@
+.App {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.header{
+  background-color: #9B7AFA;
+  color: #fff;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.newnote{
+  background-color: #9B7AFA;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  float: right;
+}
+.newnote:hover{
+  cursor: pointer;
+  background-color: #855efa;
+}
+
+.backbtn{
+  background-color: #9B7AFA;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  width: 50px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.backbtn:hover{
+  cursor: pointer;
+  background-color: #855efa;
+}
+
+.form{
+  text-align: center;
+}
+
+.form > input{
+  width: 98%;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #855efa;
+  margin: 0 auto;
+}
+
+.form > textarea{
+  margin-top: 15px;
+  width: 98%;
+  border-radius: 5px;
+  border: 1px solid #855efa;
+  resize: none;
+  height: 150px;
+}
+
+.submitNote{
+  background-color: #9B7AFA;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  width: 250px;
+  height: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+.submitNote:hover{
+  cursor: pointer;
+  background-color: #855efa;
+}
+
+.note-btn{
+  background-color: #9B7AFA;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 5px;
+}
+
+.note{
+  border: 1px solid #855efa;
+  border-radius: 5px;
+  width: 95%;
+  margin: 10px auto;
+}
+
+.note > h3{
+  margin-left: 10px;
+}
+
+.note > p{
+  margin-left: 10px;
+}
